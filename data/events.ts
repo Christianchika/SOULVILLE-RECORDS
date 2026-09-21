@@ -1,0 +1,1 @@
+export const events=[{id:"event-1",date:"2026-10-24",artist:"Artist One",venue:"The Grand Hall",city:"Kampala",country:"Uganda",ticketUrl:"#"}];
