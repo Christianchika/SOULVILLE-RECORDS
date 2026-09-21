@@ -1,0 +1,3 @@
+export default function Footer() {
+  return <footer><div className="brand">SOULVILLE <span>RECORDS</span></div><div className="footer-links"><a href="/submissions">Submissions</a><a href="/press">Press Kit</a><a href="/licensing">Licensing</a><a href="/shop">Shop</a><a href="/news">News</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a></div><p>© 2026 Soulville Records. All rights reserved.</p></footer>;
+}
