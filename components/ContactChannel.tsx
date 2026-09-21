@@ -1,0 +1,1 @@
+export default function ContactChannel({channel}:{channel:{title:string;description:string;placeholder:string}}){return <article className="contact-channel"><div className="section-label">CONTACT</div><h2>{channel.title}</h2><p>{channel.description}</p><span>{channel.placeholder}</span></article>}
