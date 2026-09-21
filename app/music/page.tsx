@@ -1,0 +1,4 @@
+import { releases } from "@/data/releases";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+export default function MusicPage(){return <><Header/><main className="section page"><div className="section-label">MUSIC / RELEASES</div><h1 className="page-title">The <em>catalogue.</em></h1><div className="release-grid">{releases.map(r=><article className="release-card" key={r.slug}><div className="cover">{r.title[0]}</div><p>{r.type} · {r.year}</p><h2>{r.title}</h2><span>{r.artist}</span><br/><a className="text-link" href={"/music/"+r.slug}>View release →</a></article>)}</div></main><Footer/></>}
