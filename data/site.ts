@@ -1,0 +1,1 @@
+export const site={name:"Soulville Records",tagline:"Sound with soul.",description:"An independent record label for distinctive artists, honest stories and music made to last.",email:"hello@soulvillerecords.example",socials:{instagram:"#",youtube:"#",spotify:"#",facebook:"#"}};
