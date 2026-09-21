@@ -1,0 +1,1 @@
+export const news=[{slug:"welcome-to-soulville",title:"Welcome to Soulville Records",date:"2026-09-21",excerpt:"Introducing an independent home for artists, stories and records with soul."},{slug:"after-dark-release",title:"After Dark — Coming Soon",date:"2026-10-01",excerpt:"A placeholder release story ready for the official catalogue."}];
