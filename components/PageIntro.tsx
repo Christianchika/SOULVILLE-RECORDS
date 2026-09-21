@@ -1,0 +1,1 @@
+export default function PageIntro({label,title,children}:{label:string;title:React.ReactNode;children?:React.ReactNode}){return <div className="page-intro"><div className="section-label">{label}</div><h1 className="page-title">{title}</h1>{children}</div>}
