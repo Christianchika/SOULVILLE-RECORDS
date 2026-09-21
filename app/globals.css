@@ -55,3 +55,5 @@
 
 
 .mobile-socials,.contact-socials{display:flex;flex-wrap:wrap;gap:18px;margin-top:28px;font:11px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em}.mobile-socials a,.contact-socials a{border-bottom:1px solid var(--line);padding-bottom:5px}.mobile-socials a:hover,.contact-socials a:hover{color:var(--accent);border-color:var(--accent)}.mobile-socials{padding-top:22px;border-top:1px solid var(--line)}.contact-socials{gap:28px;font-size:13px}.social-connect{background:linear-gradient(135deg,#f7f0e5,#e4d9ef 55%,#d7ece7)}
+
+.brand{font-weight:800}.site-header .brand,.footer-brand{color:#7d1f1f;font-weight:900;letter-spacing:.06em}.site-header .brand span,.footer-brand span{font-weight:900;color:#7d1f1f}.footer-socials{display:flex;flex-wrap:wrap;gap:18px;font:11px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em}.footer-socials a{border-bottom:1px solid var(--line);padding-bottom:5px}.footer-socials a:hover{color:#7d1f1f;border-color:#7d1f1f}
