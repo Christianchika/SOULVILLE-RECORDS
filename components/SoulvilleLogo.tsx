@@ -1,0 +1,1 @@
+export default function SoulvilleLogo({compact=false}:{compact?:boolean}){return <span className={compact?"soulville-logo soulville-logo-compact":"soulville-logo"} aria-label="Soulville Records"><span className="logo-symbol">S</span><span className="logo-wordmark">SOULVILLE <small>RECORDS</small></span></span>}
