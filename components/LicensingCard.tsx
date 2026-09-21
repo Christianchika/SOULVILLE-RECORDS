@@ -1,0 +1,1 @@
+export default function LicensingCard({item}:{item:{id:string;title:string;description:string}}){return <article className="licensing-card"><div className="licensing-icon" aria-hidden="true">S</div><div><div className="section-label">SYNC / LICENSING</div><h2>{item.title}</h2><p>{item.description}</p></div></article>}
