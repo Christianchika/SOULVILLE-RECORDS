@@ -1,15 +1,1 @@
-import type { Metadata } from "next";
-import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Soulville Records — Independent Music",
-  description: "Soulville Records — independent artists, timeless sounds, and music with soul."
-};
-
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
-}
+import type {Metadata} from "next";import {site} from "@/data/site";import "./globals.css";export const metadata:Metadata={title:{default:site.name+" — Independent Music",template:"%s — "+site.name},description:site.description,applicationName:site.name,keywords:["Soulville Records","independent music","artists","music label"],openGraph:{title:site.name+" — Independent Music",description:site.description,type:"website"},twitter:{card:"summary_large_image",title:site.name,description:site.description}};export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body>{children}</body></html>}
