@@ -1,53 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
-
-:root {
-  --ink: #171411;
-  --paper: #f2eee7;
-  --muted: #746d64;
-  --line: #cfc7bc;
-  --accent: #b75b32;
-}
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--paper); color: var(--ink); font-family: "DM Sans", sans-serif; }
-a { color: inherit; text-decoration: none; }
-.site-header { min-height: 76px; padding: 0 5vw; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
-.brand { font-weight: 700; letter-spacing: .08em; font-size: 15px; }
-.brand span { font-family: "DM Mono", monospace; font-weight: 400; font-size: 10px; margin-left: 7px; }
-nav { display: flex; gap: 28px; font-size: 13px; }
-nav a:hover, .text-link:hover, .footer-links a:hover { color: var(--accent); }
-.hero { min-height: 78vh; padding: 12vh 9vw 10vh; display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid var(--line); }
-.eyebrow, .section-label, .release-type { font-family: "DM Mono", monospace; font-size: 11px; letter-spacing: .14em; }
-.hero h1 { font-size: clamp(72px, 12vw, 180px); line-height: .82; letter-spacing: -.065em; margin: 35px 0; font-weight: 500; max-width: 1000px; }
-em { font-family: "Playfair Display", serif; font-weight: 500; }
-.hero-copy { max-width: 520px; font-size: 18px; line-height: 1.65; color: var(--muted); }
-.actions { display: flex; gap: 26px; align-items: center; margin-top: 28px; }
-.button { display: inline-block; padding: 14px 21px; background: var(--ink); color: var(--paper); font-size: 13px; }
-.button:hover { background: var(--accent); }
-.text-link { font-size: 13px; border-bottom: 1px solid currentColor; padding-bottom: 3px; }
-.feature, .story { display: grid; grid-template-columns: 1fr 2fr; gap: 6vw; padding: 12vh 9vw; border-bottom: 1px solid var(--line); }
-.feature h2, .story h2 { font-size: clamp(46px, 7vw, 92px); line-height: .95; letter-spacing: -.05em; margin: 18px 0 24px; }
-.feature p:not(.section-label):not(.release-type), .story p { max-width: 620px; color: var(--muted); line-height: 1.8; }
-.section { padding: 12vh 5vw; border-bottom: 1px solid var(--line); }
-.section-heading { display: grid; grid-template-columns: 1fr 2fr; gap: 6vw; margin-bottom: 70px; }
-.section-heading h2 { font-size: clamp(48px, 7vw, 92px); line-height: .92; letter-spacing: -.05em; margin: 0; }
-.artist-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.artist-image { aspect-ratio: 4/5; background: #d8d0c5; display: grid; place-items: center; font-family: "Playfair Display", serif; font-size: 80px; font-style: italic; }
-.artist-card p { font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: .1em; margin: 16px 0 7px; color: var(--muted); text-transform: uppercase; }
-.artist-card h3 { font-size: 25px; margin: 0 0 10px; }
-.artist-card a { font-size: 12px; border-bottom: 1px solid currentColor; }
-.cta { padding: 14vh 9vw; text-align: center; }
-.cta h2 { font-size: clamp(52px, 8vw, 110px); line-height: .9; letter-spacing: -.055em; margin: 30px 0 45px; }
-footer { padding: 55px 5vw 35px; border-top: 1px solid var(--line); display: grid; gap: 35px; }
-.footer-links { display: flex; flex-wrap: wrap; gap: 22px; font-size: 12px; }
-footer > p { color: var(--muted); font-size: 11px; margin: 0; }
-@media (max-width: 760px) {
-  .site-header { padding: 20px 5vw; align-items: flex-start; }
-  nav { gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
-  .hero { min-height: 70vh; padding: 10vh 7vw; }
-  .hero h1 { font-size: clamp(64px, 20vw, 110px); }
-  .actions { flex-direction: column; align-items: flex-start; }
-  .feature, .story, .section-heading { grid-template-columns: 1fr; padding: 10vh 7vw; }
-  .artist-grid { grid-template-columns: 1fr; }
-  .section { padding: 10vh 7vw; }
-}
+:root{--ink:#171411;--paper:#f2eee7;--muted:#746d64;--line:#cfc7bc;--accent:#b75b32}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}.site-header{min-height:76px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:700;letter-spacing:.08em;font-size:15px}.brand span{font-family:"DM Mono",monospace;font-weight:400;font-size:10px;margin-left:7px}nav{display:flex;gap:28px;font-size:13px}nav a:hover,.text-link:hover,.footer-links a:hover{color:var(--accent)}
+.hero{min-height:78vh;padding:12vh 9vw 10vh;display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid var(--line)}.eyebrow,.section-label,.release-type{font-family:"DM Mono",monospace;font-size:11px;letter-spacing:.14em}.hero h1{font-size:clamp(72px,12vw,180px);line-height:.82;letter-spacing:-.065em;margin:35px 0;font-weight:500;max-width:1000px}em{font-family:"Playfair Display",serif;font-weight:500}.hero-copy{max-width:520px;font-size:18px;line-height:1.65;color:var(--muted)}.actions{display:flex;gap:26px;align-items:center;margin-top:28px}.button{display:inline-block;padding:14px 21px;background:var(--ink);color:var(--paper);font-size:13px}.button:hover{background:var(--accent)}.text-link{font-size:13px;border-bottom:1px solid currentColor;padding-bottom:3px}
+.feature,.story{display:grid;grid-template-columns:1fr 2fr;gap:6vw;padding:12vh 9vw;border-bottom:1px solid var(--line)}.feature h2,.story h2{font-size:clamp(46px,7vw,92px);line-height:.95;letter-spacing:-.05em;margin:18px 0 24px}.feature p:not(.section-label):not(.release-type),.story p{max-width:620px;color:var(--muted);line-height:1.8}.section{padding:12vh 5vw;border-bottom:1px solid var(--line)}.section-heading{display:grid;grid-template-columns:1fr 2fr;gap:6vw;margin-bottom:70px}.section-heading h2{font-size:clamp(48px,7vw,92px);line-height:.92;letter-spacing:-.05em;margin:0}.artist-grid,.release-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.artist-image,.cover{aspect-ratio:4/5;background:#d8d0c5;display:grid;place-items:center;font-family:"Playfair Display",serif;font-size:80px;font-style:italic}.cover{aspect-ratio:1}.cover.large{max-width:600px;width:100%}.artist-card p,.release-card p{font-family:"DM Mono",monospace;font-size:10px;letter-spacing:.1em;margin:16px 0 7px;color:var(--muted);text-transform:uppercase}.artist-card h3,.release-card h2{font-size:25px;margin:0 0 10px}.artist-card a,.release-card a{font-size:12px;border-bottom:1px solid currentColor}.page{min-height:70vh}.page-title{font-size:clamp(60px,10vw,140px);line-height:.85;letter-spacing:-.06em;margin:40px 0 80px}.release-card span{color:var(--muted);font-size:13px}.profile{min-height:75vh;padding:10vh 8vw;display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center}.profile-image{aspect-ratio:4/5;background:#d8d0c5;display:grid;place-items:center;font:italic 160px "Playfair Display",serif}.profile h1{font-size:clamp(60px,9vw,130px);line-height:.85;letter-spacing:-.06em;margin:20px 0 30px}.profile p{max-width:600px;color:var(--muted);line-height:1.8;margin-bottom:35px}.content-narrow{max-width:760px}.content-narrow h2{font-size:clamp(34px,5vw,60px);margin:45px 0 15px}.content-narrow p,.content-narrow li{color:var(--muted);line-height:1.8}.form{display:grid;gap:18px;max-width:700px}.form input,.form textarea,.form select{width:100%;padding:15px;background:transparent;border:1px solid var(--line);font:inherit}.form textarea{min-height:160px}.cta{padding:14vh 9vw;text-align:center}.cta h2{font-size:clamp(52px,8vw,110px);line-height:.9;letter-spacing:-.055em;margin:30px 0 45px}footer{padding:55px 5vw 35px;border-top:1px solid var(--line);display:grid;gap:35px}.footer-links{display:flex;flex-wrap:wrap;gap:22px;font-size:12px}footer>p{color:var(--muted);font-size:11px;margin:0}
+@media(max-width:760px){.site-header{padding:20px 5vw;align-items:flex-start}.site-header nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}.hero{min-height:70vh;padding:10vh 7vw}.hero h1{font-size:clamp(64px,20vw,110px)}.actions{flex-direction:column;align-items:flex-start}.feature,.story,.section-heading,.profile{grid-template-columns:1fr;padding:10vh 7vw}.artist-grid,.release-grid{grid-template-columns:1fr}.section{padding:10vh 7vw}.profile-image{font-size:100px}}
