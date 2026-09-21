@@ -1,2 +1,2 @@
-import MobileNav from "@/components/MobileNav";
-export default function Header(){return <header className="site-header"><a className="brand" href="/">SOULVILLE <span>RECORDS</span></a><nav className="desktop-nav" aria-label="Main navigation"><a href="/artists">Artists</a><a href="/music">Music</a><a href="/tour">Tour</a><a href="/about">About</a><a href="/contact">Contact</a></nav><MobileNav/></header>}
+import MobileNav from "@/components/MobileNav";import SoulvilleLogo from "@/components/SoulvilleLogo";
+export default function Header(){return <header className="site-header"><a className="brand" href="/"><SoulvilleLogo/></a><nav className="desktop-nav" aria-label="Main navigation"><a href="/artists">Artists</a><a href="/music">Music</a><a href="/tour">Tour</a><a href="/about">About</a><a href="/contact">Contact</a></nav><MobileNav/></header>}
