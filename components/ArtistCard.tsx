@@ -1,1 +1,25 @@
-export default function ArtistCard({artist}:{artist:{slug:string;name:string;genre:string}}){return <article className="artist-card"><a href={"/artists/"+artist.slug}><div className="artist-image">{artist.name[0]}</div></a><p>{artist.genre}</p><h3>{artist.name}</h3><a href={"/artists/"+artist.slug}>View artist →</a></article>
+export default function ArtistCard({
+  artist,
+}: {
+  artist: {
+    slug: string;
+    name: string;
+    genre: string;
+  };
+}) {
+  return (
+    <article className="artist-card">
+      <a href={"/artists/" + artist.slug}>
+        <div className="artist-image">{artist.name[0]}</div>
+      </a>
+
+      <p>{artist.genre}</p>
+
+      <h3>{artist.name}</h3>
+
+      <a href={"/artists/" + artist.slug}>
+        View artist →
+      </a>
+    </article>
+  );
+}

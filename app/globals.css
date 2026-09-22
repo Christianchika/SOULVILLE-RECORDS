@@ -55,10 +55,61 @@
 
 
 .mobile-socials,.contact-socials{display:flex;flex-wrap:wrap;gap:18px;margin-top:28px;font:11px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em}.mobile-socials a,.contact-socials a{border-bottom:1px solid var(--line);padding-bottom:5px}.mobile-socials a:hover,.contact-socials a:hover{color:var(--accent);border-color:var(--accent)}.mobile-socials{padding-top:22px;border-top:1px solid var(--line)}.contact-socials{gap:28px;font-size:13px}.social-connect{background:linear-gradient(135deg,#f7f0e5,#e4d9ef 55%,#d7ece7)}
+@media (max-width: 760px) {
+  .site-header .brand {
+    width: 145px;
+  }
+
+  .soulville-logo {
+    width: 145px;
+  }
+}
 
 .brand{font-weight:800}.site-header .brand,.footer-brand{color:#7d1f1f;font-weight:900;letter-spacing:.06em}.site-header .brand span,.footer-brand span{font-weight:900;color:#7d1f1f}.footer-socials{display:flex;flex-wrap:wrap;gap:18px;font:11px "DM Mono",monospace;text-transform:uppercase;letter-spacing:.08em}.footer-socials a{border-bottom:1px solid var(--line);padding-bottom:5px}.footer-socials a:hover{color:#7d1f1f;border-color:#7d1f1f}
 
 .footer-bottom-row{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;padding-top:10px}.footer-bottom-row>p{color:var(--muted);font-size:11px;margin:0}.footer-socials{justify-content:flex-end}.footer-socials a{color:#7d1f1f;border-color:rgba(125,31,31,.35)}.footer-socials a:hover{color:#d34f2f;border-color:#d34f2f}@media(max-width:760px){.footer-bottom-row{flex-direction:column;align-items:flex-start;gap:24px}.footer-socials{justify-content:flex-start}}
 
 /* Soulville logo placeholder */
-.soulville-logo{display:inline-flex;align-items:center;gap:10px;color:#7d1f1f;font-weight:900;letter-spacing:.04em}.logo-symbol{width:34px;height:34px;border:2px solid #7d1f1f;border-radius:50%;display:grid;place-items:center;font:italic 22px "Playfair Display",serif}.logo-wordmark{display:flex;align-items:baseline;gap:5px;font-size:15px;letter-spacing:.07em}.logo-wordmark small{font:700 9px "DM Mono",monospace;letter-spacing:.12em}.footer-brand .soulville-logo{transform:scale(1.05);transform-origin:left center}@media(max-width:760px){.logo-wordmark{font-size:14px}.logo-symbol{width:31px;height:31px;font-size:20px}}
+.soulville-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.soulville-logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.soulville-logo-compact {
+  width: 150px;
+}
+
+.site-header .brand {
+  display: inline-flex;
+  align-items: center;
+  max-width: 190px;
+  overflow: visible;
+}
+
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  max-width: 190px;
+  overflow: visible;
+}
+
+@media (max-width: 760px) {
+  .site-header .brand {
+    width: 145px;
+  }
+
+  .soulville-logo {
+    width: 145px;
+  }
+}
